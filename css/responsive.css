@@ -1,0 +1,65 @@
+
+/* for tablet 992px */
+@media screen and (max-width:1024px){
+
+}
+/* for ipad 768px */
+@media screen and (max-width:991px){
+    .topheader .nav-item .nav-link {
+        padding: 10px;
+    }
+ 
+    .hero .textbox h1 {
+        font-size: 40px;
+         
+    }
+
+    .hero .textbox h2 {
+           font-size: 30px;     
+    }
+    .hero .textbox p {
+        font-size: 12px; 
+    }.choose {
+        padding: 0 50px;
+    }
+    .slick-prev {
+        left: -10px;
+    }
+    .slick-next {
+        right: -10px;
+    }
+    .slick-prev:before, .slick-next:before {
+        font-size: 20px;
+    }
+}
+/* for mobile 360px  */
+@media screen and (max-width:767px){
+
+    .hero .textbox h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        padding: 10px 0;
+    }
+    .hero .textbox h2{
+        margin-bottom: 15px;
+    }
+
+    .hero .textbox button {
+        margin-bottom: 40px;
+    }
+    .Webhosting h1 {
+        font-size: 30px;    
+    }
+    .Webhosting p {
+        font-size: 14px;
+    }
+    .Webhosting button {
+        margin-bottom: 30px;
+    }
+    .formbox {
+        width: 100%;
+}
+.choose {
+    padding: 0 20px;
+}
+}

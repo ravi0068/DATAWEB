@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.topheader{
+    background-color: #0c0f38;
+}
+
+.topheader .nav-item .nav-link{
+    color: #ffffff;
+    padding: 0px 12px;
+   
+}
+
+.hero{
+   color: #ffffff;
+}
+.hero .textbox h2{
+    color: #fdd430;
+        font-size: 55pxpx;
+        font-weight: 600;
+        margin-bottom: 19px;
+    
+}
+.hero .textbox h1{
+     font-size: 50px;
+     font-weight: 600;
+     padding: 30px 0;
+    }
+   
+    .hero .textbox p{
+        font-size: 14px;
+         margin-bottom: 30px;
+}
+    
+
+.hero .textbox button{
+    color: #0c0f38;
+    background-color: #ffffff;
+    padding: 10px 30px;
+}
+.navbar-toggler-icon{
+    
+    background-image: url(../images/bar.png);
+}
+
+.Webhosting h1 {
+    text-align: center;
+    color: #0c0f38;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.Webhosting img{
+    margin: 40px 0;
+}
+.Webhosting p{
+    color: #0c0f38;
+}
+.Webhosting button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 40px;
+    margin-bottom: 40px;
+}
+.services{
+    text-align: center;
+    color: #ffffff;
+    background-color: #0c0f38;
+}
+.services h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.services .heading p {
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.servicebox {
+    border: 2px solid#ffffff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.servicebox .imgbox {
+    background-color: #ffffff;
+    border-radius: 100%;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.servicebox h5 {
+    margin-top: 20px;
+}
+.servicebox p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services button {
+    background-color: #ffffff;
+    color: #0c0f38;
+    border: none;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.choose{
+    text-align: center;
+    color: #0c0f38;
+}
+.choose .heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.choose .heading p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.choose .servicebox {
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px -2px #491f1f73;
+    background-color: white;
+    border: 0;
+    padding: 10px;
+    margin: 15px;
+}
+.servicebox p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.choose .servicebtn {
+    color: #ffffff;
+    background-color: #0c0f38;
+    padding: 8px 25px;
+    margin-bottom: 30px;
+}
+footer{
+  background-color: #0c0f38;
+  text-align: center;
+  color: #ffffff;
+}
+.formbox {
+    width: 40%;
+    margin: auto;
+    background-color: #0c0f38;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    top: -145px;
+    position:relative;
+    margin-top: 15rem;
+
+}
+
+.formbox form textarea, .formbox form input {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    width: 75%;
+}
+footer h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -5rem;
+}
+footer h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+footer p {
+    font-size: 14px;
+    padding-bottom: 55px;
+}
+.allrights{
+    text-align: center;
+}
+footer button {
+    color: pink;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    opacity: 1;
+    color: #0c0f38;
+}
